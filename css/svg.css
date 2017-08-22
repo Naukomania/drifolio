@@ -1,0 +1,350 @@
+#ushko {
+  /* transition:all 1s; */
+  animation: shake 3s infinite ease-in-out;
+}
+
+#ushko {
+  /* transform: rotate(20deg); */
+  transform-origin: 30% 70%;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(20deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  95% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#nouse {
+  /* transition:all 1s; */
+  animation: shake2 4s infinite ease-in-out;
+}
+
+#nouse {
+  /* transform: rotate(20deg); */
+  transform-origin: 50% 50%;
+}
+
+@keyframes shake2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(5deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#bee {
+  animation: xAxis 4s infinite ease-in;
+  x transform-origin: 50% 50%;
+  animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+}
+
+#bee-wrapper {
+  /* transition:all 1s; */
+  animation: yAxis 4s infinite ease-out;
+  animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+}
+
+@keyframes xAxis {
+  0% {
+    transform: translateX(-20px);
+  }
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateX(-150px);
+  }
+  75%, 80% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes yAxis {
+  0% {
+    transform: translateY(-20px);
+  }
+  40% {
+    animation-timing-function: ease-out;
+    transform: translateY(-200px);
+  }
+  75%, 80% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+#bear-logo .st0 {
+  display: none;
+}
+
+#bear-logo .st1 {
+  fill: none;
+  stroke: #FECE28;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st2 {
+  fill: #A29A97;
+  stroke: #000000;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st3 {
+  fill: #5C5044;
+  stroke: #000000;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st4 {
+  fill: #A29A97;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st5 {
+  fill: #8D8B9C;
+}
+
+#bear-logo .st6 {
+  fill: #575C72;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st7 {
+  fill: #D6CFCF;
+}
+
+#bear-logo .st8 {
+  fill: #544C49;
+}
+
+#bear-logo .st9 {
+  fill: #B3C978;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st10 {
+  fill: #96A961;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st11 {
+  fill: #B4C37D;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st12 {
+  fill: #567836;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st13 {
+  fill: #819347;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st14 {
+  fill: #8C9E4C;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st15 {
+  fill: #52732B;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st16 {
+  fill: #ACB977;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st17 {
+  fill: #6D7E3E;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st18 {
+  fill: #50733E;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st19 {
+  fill: #6D7E3E;
+}
+
+#bear-logo .st20 {
+  fill: #F4C2D9;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st21 {
+  fill: #3C0A0D;
+}
+
+#bear-logo .st22 {
+  fill: #FAE9F1;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st23 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st24 {
+  fill: #F4C2D9;
+}
+
+#bear-logo .st25 {
+  fill: #FCEE21;
+}
+
+#bear-logo .st26 {
+  fill: #8D8B9C;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st27 {
+  fill: #202125;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st28 {
+  fill: #666666;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st29 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st30 {
+  fill: #FFFFFF;
+  stroke: #00FFFF;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st31 {
+  fill: #2B281E;
+}
+
+#bear-logo .st32 {
+  fill: #FFD927;
+  stroke: #000000;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st33 {
+  fill: #846026;
+}
+
+#bear-logo .st34 {
+  fill: #3D381D;
+  stroke: #000000;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st35 {
+  stroke: #000000;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st36 {
+  fill: #FFFFFF;
+  stroke: #000000;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st37 {
+  fill: #2B281E;
+  stroke: #000000;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st38 {
+  fill: #FFFFFF;
+  stroke: #7581FF;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+
+#bear-logo .st39 {
+  fill: none;
+  stroke: #00FFFF;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}

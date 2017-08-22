@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.img-wrapper {
+	border-radius: 30px;
+	width: 100%;
+	max-height: 350px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.img-wrapper.aria {
+	background: url('../img/cards/aria.jpg') no-repeat top right;
+	background-size: cover;
+	text-align: right;
+}
+
+.img-wrapper.snou_jon {
+	background: url('../img/cards/snou_jon.jpg') no-repeat top right;
+	background-size: cover;
+	text-align: left;
+}
+
+.img-wrapper.snou_jon img {
+	height: 350px;
+	margin-top: 100px;
+}
+
+#tools {
+	width: 300px;
+	height: 80px;
+	overflow: hidden;
+	position: relative;
+}
+
+#tools img {
+	height: 80px;
+	width: 80px;
+}
+
+.portfolioitems .row > div {
+	height: 400px;
+}
